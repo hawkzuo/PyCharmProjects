@@ -1,1 +1,5 @@
+# ignore IDEA files
 .idea/
+
+# ignore deepLearning Course codes
+basicPj/src/deepLearning/

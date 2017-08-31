@@ -14,4 +14,12 @@ if __name__ == '__main__':
     print(listdir('..'))
     print(np.linspace(0, 10, 6))
     print(scipy.__version__)
+    print(np.random.randn(3, 3))
+    print(np.random.randn(3, 1))
+    a = np.random.randn(3, 3)
+    b = np.random.randn(3, 1)
+    c = a * b
 
+    a = np.random.randn(32, 32, 3)
+    x = a.reshape(32 * 32 * 3, 1)
+    print(x.shape)

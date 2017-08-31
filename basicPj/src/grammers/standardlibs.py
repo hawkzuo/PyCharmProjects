@@ -11,6 +11,8 @@ print(os.getenv('PYTHONPATH'))
 
 
 import sys
-
-print(sys.platform)
-print(sys.version)
+if __name__ == '__main__':
+    print(sys.platform)
+    print(sys.version)
+    print(sys.prefix)
+    print(sys.path)
